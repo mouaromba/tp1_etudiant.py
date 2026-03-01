@@ -84,7 +84,8 @@ Lister tous les étudiants:
 - URL : GET http://localhost:5000/students
 - Réponse :
 
-<img width="302" height="93" alt="image" src="https://github.com/user-attachments/assets/ee7e815b-327f-4f1c-b3ed-3f5f075e19b7" />
+<img width="479" height="432" alt="image" src="https://github.com/user-attachments/assets/7d2fa1de-0027-48e7-89b7-12b2b656b102" />
+
 
 Ajouter un étudiant
 
