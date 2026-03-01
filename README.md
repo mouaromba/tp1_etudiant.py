@@ -65,8 +65,6 @@ Les données sont stockées en mémoire (structure temporaire). Les étudiants s
 
 Il s’agit d’un stockage temporaire en mémoire (pas de base de données réelle)
 
-<img width="360" height="135" alt="image" src="https://github.com/user-attachments/assets/3ac632a8-176f-41a8-81e2-82f94bff6b3c" />
-
 9. Description Détaillée des Endpoints
 Tester si le serveur fonctionne: @app.route('/')
 Méthode : GET
