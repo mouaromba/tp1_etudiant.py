@@ -75,8 +75,8 @@ Lister tous les étudiants:
 
 <img width="304" height="36" alt="image" src="https://github.com/user-attachments/assets/6229ab28-c533-4afd-b269-200f745281f3" />
 
-URL : GET http://localhost:5000/students
-Réponse :
+- URL : GET http://localhost:5000/students
+- Réponse :
 
 <img width="302" height="93" alt="image" src="https://github.com/user-attachments/assets/ee7e815b-327f-4f1c-b3ed-3f5f075e19b7" />
 
@@ -91,12 +91,15 @@ Corps JSON :
   "name": "Ali",
   "age": 20
 }
+
 Réponse :
+
 {
   "id": 5,
   "name": "Ali",
   "age": 20
 }
+
 Code retour : 201 (Created)
 
 Afficher un étudiant par ID
@@ -105,16 +108,21 @@ Afficher un étudiant par ID
 
 Exemple :
 GET http://localhost:5000/students/1
+
 Réponse :
+
 {
   "id":1,
   "name":"Shama",
   "age":21
 }
+
 Si l’étudiant n’existe pas :
+
 {
   "erreur": "L'étudiant n'existe pas"
 }
+
 Code retour : 404
 
 Modifier un étudiant
@@ -123,12 +131,16 @@ Modifier un étudiant
 
 Exemple :
 PUT http://localhost:5000/students/1
+
 Corps JSON :
+
 {
   "name": "Nouveau Nom",
   "age": 22
 }
+
 Réponse :
+
 {
   "id":1,
   "name":"Nouveau Nom",
@@ -142,6 +154,7 @@ Supprimer un étudiant
 Exemple :
 DELETE http://localhost:5000/students/1
 Réponse :
+
 {
   "message": "Etudiant supprimé"
 }
@@ -154,10 +167,12 @@ Réponse :
 - Retourne la liste complète au format JSON.
 - Ajouter un étudiant :POST /students
    Reçoit un JSON :
+  
 {
   "name": "Schama",
   "age": 21
 }
+
 - Retourne l’étudiant créé avec un identifiant automatique. Code HTTP : 201
 - Afficher un étudiant par ID: GET /students/<id>
 - Retourne un étudiant spécifique ou une erreur 404.
