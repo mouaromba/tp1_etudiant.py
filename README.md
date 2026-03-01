@@ -69,7 +69,13 @@ Il s’agit d’un stockage temporaire en mémoire (pas de base de données rée
 Tester si le serveur fonctionne: @app.route('/')
 Méthode : GET
 URL : http://localhost:5000/
+
+<img width="1353" height="688" alt="image" src="https://github.com/user-attachments/assets/88eabc13-6df2-4987-9b2e-c17788b31a2b" />
+
 Réponse : Bienvenue dans l'API de gestion des étudiants
+
+<img width="734" height="251" alt="image" src="https://github.com/user-attachments/assets/c9ca30a7-70ad-4e96-9021-085d06308e02" />
+
 
 Lister tous les étudiants:
 
