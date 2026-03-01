@@ -94,6 +94,7 @@ Ajouter un étudiant
 URL :
 POST http://localhost:5000/students
 Corps JSON :
+
 {
   "name": "Ali",
   "age": 20
